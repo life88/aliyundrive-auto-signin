@@ -2,7 +2,7 @@ name: Aliyun drive auto signin
 
 on:
   schedule:
-    # 没填国际时间 10:48 运行，本地时间 18:48 运行
+    # 每天国际时间 10:48 运行，本地时间 18:48 运行
     - cron: '48 10 * * *'
   workflow_dispatch:
 
